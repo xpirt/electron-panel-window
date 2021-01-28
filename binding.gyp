@@ -10,12 +10,12 @@
               "conditions":[
                   ["OS=='linux'", {
                       "sources": [
-                        "functions_linux.mm"
+                        "functions_linux.cc"
                       ]
                   }],
                   ["OS=='win'", {
                       "sources": [
-                        "functions_win.mm"
+                        "functions_win.cc"
                       ]
                   }],
                   ['OS=="mac"', {
